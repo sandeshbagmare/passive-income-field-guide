@@ -9,9 +9,14 @@
     if (typeof value !== 'number' || !Number.isFinite(value) || value < min || value > max) throw Error('Invalid '+name+'.');
   }
   function validateState(s) {
-    strictKeys(s,['version','fx','target','month','rows']);
-    if (s.version !== 1) throw Error('Unsupported data version.');
+    strictKeys(s,['version','fx','target','month','rows','activeHourlyNetInr','weeklyHoursAvailable']);
+    if (![1,2].includes(s.version)) throw Error('Unsupported data version.');
+    if (s.version === 1) {
+      s={...s,version:2,activeHourlyNetInr:null,weeklyHoursAvailable:null};
+    }
     numeric(s.fx,'fx',.01,1000); numeric(s.target,'target',0,1e8);
+    numeric(s.activeHourlyNetInr,'active hourly assumption',.01,1e7,true);
+    numeric(s.weeklyHoursAvailable,'weekly hours available',0,168,true);
     if (typeof s.month !== 'string' || !/^\d{4}-(0[1-9]|1[0-2])$/.test(s.month)) throw Error('Invalid month.');
     if (!Array.isArray(s.rows) || s.rows.length>100) throw Error('Invalid rows.');
     const ids = new Set();
@@ -55,7 +60,15 @@
     result.netCash=result.cash-result.actualCosts;
     return result;
   }
-  const api={validateState,estimateRow,summarize,statuses};
+  function workloadForGap(state,totals){
+    const gap=Math.max(0,state.target-totals.passive-totals.active);
+    if(gap===0)return {monthlyHours:0,weeklyHours:0,withinAvailability:true,gap};
+    if(state.activeHourlyNetInr===null)return {monthlyHours:null,weeklyHours:null,withinAvailability:null,gap};
+    const monthlyHours=gap/state.activeHourlyNetInr;
+    const weeklyHours=monthlyHours/4.33;
+    return {monthlyHours,weeklyHours,withinAvailability:state.weeklyHoursAvailable===null?null:weeklyHours<=state.weeklyHoursAvailable,gap};
+  }
+  const api={validateState,estimateRow,summarize,workloadForGap,statuses};
   if(typeof module!=='undefined')module.exports=api;
   else root.IncomeDashboard=api;
 })(typeof window!=='undefined'?window:globalThis);

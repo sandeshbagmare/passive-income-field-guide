@@ -1,10 +1,12 @@
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
-$testDirectory = Join-Path $root 'private\setup-self-check'
+$testDirectory = Join-Path (Join-Path $root 'private') ('setup-self-check-' + [guid]::NewGuid().ToString('N').Substring(0,8))
 & (Join-Path $root 'setup-pc.ps1') -Action Prepare -Connection Tethered -OutputDirectory $testDirectory | Out-Null
 $state = Get-Content -LiteralPath (Join-Path $testDirectory 'dashboard-initial.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $plan = Get-Content -LiteralPath (Join-Path $testDirectory 'setup-plan.json') -Raw -Encoding UTF8 | ConvertFrom-Json
-if ($state.rows.Count -ne 13) { throw 'Expected all 13 catalog rows' }
+$catalogItems = Get-Content -LiteralPath (Join-Path $root 'pc-catalog.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$catalogCount = $catalogItems.Count
+if ($state.rows.Count -ne $catalogCount) { throw 'Expected all catalog rows' }
 foreach ($id in @('honeygain','earnfm')) {
   if (($state.rows | Where-Object id -eq $id).status -ne 'excluded') { throw "$id must be excluded for tethered PC" }
 }

@@ -141,5 +141,71 @@ window.PC_CATALOG = [
     "sourceUrl": "https://support.upwork.com/hc/en-us/articles/211062538-Learn-about-the-Freelancer-Service-Fee",
     "minimumUsd": null,
     "caveat": "Needs buyers and delivery. Fees, revisions and acquisition time reduce take-home; client scope is not a passive app."
+  },
+  {
+    "id": "userlytics",
+    "name": "Userlytics",
+    "mode": "active",
+    "priority": 14,
+    "connection": "PC microphone/browser and task-specific recorder; truthful practice and screening. India admission checked during signup.",
+    "setupUrl": "https://www.userlytics.com/user-experience-research/paid-ux-testing/",
+    "sourceUrl": "https://www.userlytics.com/helpcenter/testers/what-countries-are-supported-for-testers/",
+    "minimumUsd": null,
+    "caveat": "Active UX feedback. PayPal-supported country rule; approved tests only, unpredictable invitations. Owner does the actual feedback."
+  },
+  {
+    "id": "respondent",
+    "name": "Respondent",
+    "mode": "active",
+    "priority": 15,
+    "connection": "Browser/video interviews; India is a recruiting market, but selection is study-specific.",
+    "setupUrl": "https://www.respondent.io/become-a-participant",
+    "sourceUrl": "https://help.respondent.io/en/articles/12552519-getting-paid-on-respondent-timeline-currencies-how-to-redeem",
+    "minimumUsd": null,
+    "caveat": "Unpaid screeners; confirmed study completion required. 5%/$1 minimum fee per incentive. Tremendous regional gift cards are not automatically PayPal/cash; keep cash field zero for vouchers."
+  },
+  {
+    "id": "oneforma",
+    "name": "OneForma",
+    "mode": "active",
+    "priority": 16,
+    "connection": "Browser-based project marketplace; actual country, language, equipment and qualification from each current listing.",
+    "setupUrl": "https://www.oneforma.com/projects/",
+    "sourceUrl": "https://www.oneforma.com/",
+    "minimumUsd": null,
+    "caveat": "India language projects exist, not a guaranteed job. General payout threshold unverified; confirm current dashboard method before working. No AI qualification substitution."
+  },
+  {
+    "id": "crowdgen",
+    "name": "CrowdGen",
+    "mode": "active",
+    "priority": 17,
+    "connection": "Apply for a real project; shortlisted owner completes account, security, qualification and payment setup.",
+    "setupUrl": "https://crowdgen.com/onboarding/",
+    "sourceUrl": "https://crowdgen.com/docs/payments/invoicing/invoicing-and-disputes/",
+    "minimumUsd": null,
+    "caveat": "Project-specific work/rates. Hours or units need invoice approval; payment methods depend on account/country. No platform-wide hourly wage or payout forecast."
+  },
+  {
+    "id": "adobe-stock",
+    "name": "Adobe Stock contributor",
+    "mode": "active",
+    "priority": 18,
+    "connection": "Create original rights-cleared assets on existing tools, submit for review, then track actual licenses/royalties.",
+    "setupUrl": "https://contributor.stock.adobe.com/",
+    "sourceUrl": "https://helpx.adobe.com/stock/contributor/payments-earnings/payment-taxes/request-payment-content.html",
+    "minimumUsd": 25,
+    "caveat": "Creation first, possible future royalties; not bandwidth income. $25 plus 45 days since first sale for payout eligibility; verify current local provider/tax setup. No assumed license sales."
+  },
+  {
+    "id": "gumroad",
+    "name": "Gumroad original digital products",
+    "mode": "active",
+    "priority": 19,
+    "connection": "Create an original useful template or asset; verify India seller payout eligibility before publishing.",
+    "setupUrl": "https://gumroad.com/",
+    "sourceUrl": "https://gumroad.com/help/article/13-getting-paid",
+    "minimumUsd": null,
+    "caveat": "Creation/marketing work with possible future sales. Verify country-specific minimum, fees and holds. Gross product sales are not take-home, and publishing creates no buyer demand."
   }
 ];

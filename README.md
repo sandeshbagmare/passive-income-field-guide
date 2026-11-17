@@ -12,8 +12,9 @@ Start with one documented bandwidth pilot; investigate GPU compute only on suita
 
 ## Contents
 
-- `pc-agent.html`: PC-first setup runbook with 13 candidate routes, connection branches, agent installation and a 30-day plan.
+- `pc-agent.html`: PC-first setup runbook with 19 candidate routes, connection branches, agent installation and a 30-day plan.
 - `pc-work-playbooks.html`: detailed onboarding and human-work boundaries for the five active PC routes.
+- `more-pc-routes.html`: six additional research, project and original-asset routes; all remain conditional on admission, accepted work or actual sales.
 - `downloads/pc-income-kit.zip`: portable public-file kit, with SHA256/file manifest; extract completely and open `start.cmd`.
 - `package-kit.ps1`: builds the portable ZIP from an explicit public-file list; excludes private records, client binaries and Git history.
 - `AGENT-SETUP.md`: complete handoff instructions for another coding agent.
@@ -22,6 +23,8 @@ Start with one documented bandwidth pilot; investigate GPU compute only on suita
 - `dashboard.html`: functional local-data dashboard for setup state, observed versus assumed estimates, pooled balances and actual net cash. No provider login/API integration.
 - `pc-catalog.json`, `pc-catalog.js`: structured current PC candidates; build script regenerates the offline browser catalog.
 - `dashboard-core.js`, `dashboard.js`, `dashboard.css`: validated import/math and dashboard behavior; checks: `node dashboard-check.cjs`.
+
+The dashboard supports 19 catalog routes. Its optional hourly/time inputs estimate additional active work needed to cover the remaining observed target gap; these are user assumptions, not promised wages. Version 1 private exports remain loadable, preserve old values and plan selections, and gain new candidates as blank/unselected rows. Asset and royalty rows sit with creation work, separate from passive bandwidth. Gift cards are reward value and must not be entered as cleared cash.
 - `index.html`: complete static research guide with sources, 15 app cards, calculator and seven-day plan.
 - `apps.json`: structured app comparison; status and uncertainty are explicit.
 - `site.css`, `site.js`: accessible responsive presentation, filtering and illustrative calculator.

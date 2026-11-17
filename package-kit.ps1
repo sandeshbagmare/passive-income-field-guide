@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop'
 if (-not $OutputDirectory) { $OutputDirectory = Join-Path $PSScriptRoot 'downloads' }
 $files = @(
   '.gitignore','README.md','AGENT-SETUP.md','start.cmd','setup-pc.ps1','setup-check.ps1',
-  'index.html','page.html','android-pilot.html','pc-agent.html','pc-work-playbooks.html',
+  'index.html','page.html','android-pilot.html','pc-agent.html','pc-work-playbooks.html','more-pc-routes.html',
   'internet-income-plan.html','dashboard.html','site.css','site.js','handbook.css','handbook.js',
   'dashboard.css','dashboard.js','dashboard-core.js','pc-catalog.json','pc-catalog.js','apps.json',
   'account-pilot-log.csv','device-pilot-log.csv','pilot-log.csv','build.cjs','check.cjs',

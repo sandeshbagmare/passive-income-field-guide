@@ -51,6 +51,8 @@ Always confirm the current owner's connection before installing. Do not infer br
 
 Read `pc-work-playbooks.html` before active-work onboarding. uTest's published best practices prohibit AI-written issue reports, test cases and Tester Review feedback; the agent's role there is environment preparation and general education, not drafting those submissions. Other platforms have their own task/AI rules; follow them instead of assuming permission.
 
+Additional conditional routes are documented in `more-pc-routes.html`: Userlytics, Respondent, OneForma, CrowdGen, Adobe Stock and original Gumroad products. These are human participation, project work or asset creation/sales, not more bandwidth installations. Owner qualification and rights/payment checks remain necessary. Agent preparation must not submit personal applications, studies or products without actual user authorization and review. A gift-card incentive is not cleared bank/PayPal cash.
+
 ```powershell
 # Open one provider's official current setup page:
 .\setup-pc.ps1 -Action OpenProvider -App honeygain
@@ -99,6 +101,8 @@ Open `http://127.0.0.1:8769/dashboard.html`. Everything starts as Candidate, unk
 Enter ONE pooled row/provider, covering all that user's relevant devices. Use new recurring USD credits during an observation window; exclude starting balance, signup/referral bonuses and active-task credits from a passive row. Convert source-native units using the actual provider conversion, document original units privately, and never assume credits equal dollars. Payout minimum and current unpaid balance are separate fields. No provider login/API access is implemented.
 
 Observed mode extrapolates earned USD / days × 30. Scenario mode uses a manually entered monthly gross assumption. Neither predicts continuing demand. Summaries use only explicitly selected current-plan Testing/Paid rows; comparison windows are not additive. Scenarios are excluded from observed totals. Cleared INR cash minus actual costs is a separate reporting-month measure. Hypothetical costs and actual costs paid must not be interchanged. Deduct fees once; avoid counting fees again if the received amount is already net.
+
+Optional active-work INR/hour and extra available billable hours/week calculate additional workload for the remaining observed target. Do not present the input as a platform wage. Allow unpaid screening/learning/acquisition time. Existing version 1 exports migrate without overwriting row values or selections; newly added candidates begin unknown and unselected. The hourly assumption is preserved in version 2 exports.
 
 Use Export private JSON before reload, month switch or replacing data. A month switch asks confirmation and resets actual cash/costs while preserving observation and balance fields. Default state is memory-only. Save in browser is explicit, optional and scoped to browser/origin; GitHub Pages paths under the same owner share an origin. It is not a secret store. Import validates size, shape, numeric fields and provider IDs and rejects duplicates. Do not hand-edit exports to insert secrets. Unknown stays blank, actual zero is entered as zero.
 

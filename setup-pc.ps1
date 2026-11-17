@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
   [ValidateSet('Audit','Prepare','OpenProvider','Download','Install','Serve')][string]$Action = 'Audit',
-  [ValidateSet('honeygain','proxyrack','packetstream','bitping','bytelixir','earnfm','repocket','traffmonetizer','usertesting','utest','testio','clickworker','freelance')][string]$App,
+  [ValidateSet('honeygain','proxyrack','packetstream','bitping','bytelixir','earnfm','repocket','traffmonetizer','usertesting','utest','testio','clickworker','freelance','userlytics','respondent','oneforma','crowdgen','adobe-stock','gumroad')][string]$App,
   [uri]$InstallerUrl,
   [string]$VerifiedPublisher,
   [string]$VerifiedSha256,
@@ -30,7 +30,7 @@ if ($Action -eq 'Serve') {
         $parts = $request.Split(' ')
         $relative = [uri]::UnescapeDataString(($parts[1].Split('?')[0])).TrimStart('/')
         if (-not $relative) { $relative = 'dashboard.html' }
-        $allowed = @('dashboard.html','dashboard.css','dashboard.js','dashboard-core.js','pc-catalog.js','pc-catalog.json','setup-pc.ps1','start.cmd','site.css','pc-agent.html','pc-work-playbooks.html','internet-income-plan.html','handbook.js','handbook.css','index.html','site.js','android-pilot.html','AGENT-SETUP.md','account-pilot-log.csv','device-pilot-log.csv','downloads/pc-income-kit.zip','downloads/pc-income-kit-manifest.json')
+        $allowed = @('dashboard.html','dashboard.css','dashboard.js','dashboard-core.js','pc-catalog.js','pc-catalog.json','setup-pc.ps1','start.cmd','site.css','pc-agent.html','pc-work-playbooks.html','more-pc-routes.html','internet-income-plan.html','handbook.js','handbook.css','index.html','site.js','android-pilot.html','AGENT-SETUP.md','account-pilot-log.csv','device-pilot-log.csv','downloads/pc-income-kit.zip','downloads/pc-income-kit-manifest.json')
         $status = '200 OK'; $type = 'text/plain; charset=utf-8'
         if ($parts[0] -ne 'GET') { $status = '405 Method Not Allowed'; $body = [Text.Encoding]::UTF8.GetBytes('GET only') }
         elseif ($allowed -notcontains $relative) { $status = '404 Not Found'; $body = [Text.Encoding]::UTF8.GetBytes('Not found') }
