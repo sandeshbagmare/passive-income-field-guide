@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Honeygain",
+    "kind": "Bandwidth",
+    "status": "Pilot",
+    "windows": true,
+    "india": "India PayPal and Content Delivery supported in provider help; admission and traffic remain conditional.",
+    "summary": "Best documented first bandwidth pilot in this review. Uses your public IP to route customer traffic.",
+    "earnings": "Provider publishes about $0.10 per GB. Its $1–5/month single-device illustration is marketing, not an observed India result. Content Delivery adds 6 credits per active hour where a slot is available; 720 active hours would equal $4.32.",
+    "payout": "PayPal: $20 minimum, $2.02 flat processor fee plus possible FX/PayPal costs. India requires eligible PayPal setup. Help describes an invitation within one business day, then 2–3 business days after processor registration. Alternate JumpTask credits redeem into gift cards; gift cards are not cash.",
+    "limits": "One account; up to 10 devices, one per public IP. Help prohibits VPN/proxy IP changing, public Wi-Fi, data centers and mobile tethering. Do not create extra bonus accounts.",
+    "setup": [
+      "Check ISP permission and your India redemption route before installation.",
+      "Download the Windows app from Honeygain, register one account, and use an owned device on an authorized connection.",
+      "Check Content Delivery eligibility/queue. Enable startup only after a short trial.",
+      "Log credits, traffic and extra electricity for seven days; redeem once eligible."
+    ],
+    "risk": "Its own terms warn about IP blocklists, CAPTCHAs, access disruptions and traffic complaints. On a low-earning connection, power costs may consume the proceeds.",
+    "confidence": "Provider terms and payout help retrieved; no personal payout trial.",
+    "sources": [
+      [
+        "Published rate and vendor estimates",
+        "https://www.honeygain.com/blog/bandwidth-sharing-apps/"
+      ],
+      [
+        "Payout help (official API)",
+        "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688365428636.json"
+      ],
+      [
+        "Fees (official API)",
+        "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688387290268.json"
+      ],
+      [
+        "Terms and network risks",
+        "https://www.honeygain.com/terms-of-use/"
+      ],
+      [
+        "Additional provider eligibility/device/payout help (30688346556956)",
+        "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688346556956.json"
+      ],
+      [
+        "Additional provider eligibility/device/payout help (30688348432028)",
+        "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688348432028.json"
+      ],
+      [
+        "Additional provider eligibility/device/payout help (30688581200284)",
+        "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688581200284.json"
+      ],
+      [
+        "Additional provider eligibility/device/payout help (30688484350492)",
+        "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688484350492.json"
+      ],
+      [
+        "Additional provider eligibility/device/payout help (30688524338332)",
+        "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688524338332.json"
+      ],
+      [
+        "Additional provider eligibility/device/payout help (30688341894428)",
+        "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688341894428.json"
+      ]
+    ]
+  },
+  {
+    "name": "PacketStream",
+    "kind": "Bandwidth",
+    "status": "Conditional",
+    "windows": true,
+    "india": "India eligibility and local PayPal redemption were not expressly confirmed on the retrieved page. Verify before installation.",
+    "summary": "Transparent per-GB economics and a lower cash-out threshold; still entirely dependent on purchased traffic.",
+    "earnings": "$0.10 per GB actually routed. 50 GB earns $5 gross; 300 GB earns $30 gross. These are arithmetic examples, not traffic forecasts.",
+    "payout": "$5 minimum; 3% PacketStream withdrawal fee plus possible PayPal costs. First withdrawal unlocks after seven days; stated processing is within one week.",
+    "limits": "One sharing device per public IP. Windows 10+ supported. More devices behind the same router do not qualify as more IPs.",
+    "setup": [
+      "Confirm your country and PayPal destination are accepted in signup.",
+      "Get the Windows installer from the signed-in official dashboard and run one client.",
+      "Measure actual paid GB. Once both the time gate and $5 minimum are met, request a test withdrawal."
+    ],
+    "risk": "Third parties use your exit IP. Rate multiplied by your internet allowance is not expected revenue; customer demand determines traffic.",
+    "confidence": "Current official sharing page retrieved; no India account or payout tested.",
+    "sources": [
+      [
+        "Platforms, rate and withdrawals",
+        "https://packetstream.io/share-bandwidth/"
+      ]
+    ]
+  },
+  {
+    "name": "Salad",
+    "kind": "Compute",
+    "status": "Conditional",
+    "windows": true,
+    "india": "India is listed for bandwidth jobs. GPU eligibility, job demand and India reward redemption must be checked separately.",
+    "summary": "The most material hardware-dependent opportunity found. Only worth investigating with hardware already owned.",
+    "earnings": "Official November 1, 2026 high-priority desktop GPU rates: RTX 3060 12 GB $0.064/hour, RTX 4090 $0.352/hour, RTX 5090 $0.480/hour. Only assigned GPU-job hours earn these rates. Lower-priority jobs pay less; laptop rates differ.",
+    "payout": "Accrues USD-denominated Salad Balance, not automatically bank cash. Check the reward storefront, minimum denominations, India availability and any fees before treating it as cash income.",
+    "limits": "India bandwidth work requires residential internet without a VPN/proxy, generally 20 Mbps upload. GPU jobs require compatible hardware and the provider's container setup; do not infer eligibility from owning any GPU.",
+    "setup": [
+      "Identify exact GPU model, VRAM, RAM and available storage; compare against current official requirements.",
+      "Confirm a usable India redemption option in the reward store.",
+      "Install Salad from its official site and follow its container-environment setup.",
+      "Run a measured pilot: record actual assigned job hours, priority/rate, whole-PC wall power, temperature and balance.",
+      "Schedule only profitable idle hours. Keep gaming/work needs and cooling in view."
+    ],
+    "risk": "High published rates are not guaranteed job allocation. Include idle power, electricity, hardware wear and redemption limits. Do not buy a GPU based on the optimistic scenario.",
+    "confidence": "November 16 rate announcement and India bandwidth guide retrieved directly; no hardware benchmark or payout tested.",
+    "sources": [
+      [
+        "November 2026 rate table",
+        "https://community.salad.com/gpu-earning-rates-november-2026"
+      ],
+      [
+        "Bandwidth country and network requirements",
+        "https://support.salad.com/guides/getting-jobs/getting-bandwidth-sharing-jobs/"
+      ],
+      [
+        "Container setup requirements",
+        "https://support.salad.com/guides/getting-jobs/getting-container-jobs/"
+      ]
+    ]
+  },
+  {
+    "name": "MobileXpression",
+    "kind": "Research",
+    "status": "Conditional",
+    "windows": false,
+    "india": "Current India admission, credit schedule and redemption catalog remain unverified. An India-rendered store page does not establish panel eligibility.",
+    "summary": "Closest match to the background research apps mentioned in the request. Requires a real supported mobile device.",
+    "earnings": "Official Android listing advertises weekly credits and initial membership credits, but does not establish a current India monthly amount. Budget ₹0 until an actual accepted offer is visible.",
+    "payout": "Credits redeem against a regional catalog. Listing now includes PayPal among rewards; do not assume every country has it. Minimum and processing time must be checked in the account.",
+    "limits": "VPN and Accessibility permissions collect browsing/app-use information. No Windows earning client established in this review; emulator eligibility not established.",
+    "setup": [
+      "Use the official MobileXpression site/store listing on an owned phone and confirm admission.",
+      "Read the exact data-consent screen and reward terms before enabling its permissions.",
+      "Record weekly credit requirements and first redemption threshold; use the phone normally."
+    ],
+    "risk": "The provider says Accessibility collects browser URLs and active apps, while its VPN collects web requests. This is a substantial data-sharing decision.",
+    "confidence": "Official Play listing, updated June 24, 2026, retrieved; India schedule not verified.",
+    "sources": [
+      [
+        "Official Android listing and data collection",
+        "https://play.google.com/store/apps/details?id=com.mobilexpression.ltvpnb"
+      ],
+      [
+        "Enrollment",
+        "https://www.mobilexpression.com/"
+      ]
+    ]
+  },
+  {
+    "name": "Meta Viewpoints",
+    "kind": "Research",
+    "status": "Conditional",
+    "windows": false,
+    "india": "Historical Study participation in India is documented. Current India admission and available programs must be checked in the app.",
+    "summary": "Check for a background research invitation, but many programs are active surveys, tasks or product trials.",
+    "earnings": "Program-specific points; no verified fixed monthly amount. No invitation means no dependable earnings. Do not reuse old Facebook Research or Study payout claims.",
+    "payout": "Current regional threshold, reward value, payment method and processing time are program/account dependent and were not verified.",
+    "limits": "Mobile app; no native Windows earning path established. Certain programs use Accessibility. Program consent and eligibility are separate from app installation.",
+    "setup": [
+      "Install the official Meta Viewpoints app, create or access your own account and check country eligibility.",
+      "Read each invitation's tasks, duration, data access and compensation.",
+      "Accept only programs you want; count active tasks separately from background earnings."
+    ],
+    "risk": "Historical availability is not proof of a current paid research slot. Do not install old Facebook Research APKs from unofficial mirrors.",
+    "confidence": "Current official store listing and Meta's historical Study announcement retrieved.",
+    "sources": [
+      [
+        "Current official Viewpoints listing",
+        "https://play.google.com/store/apps/details?id=com.facebook.viewpoints"
+      ],
+      [
+        "Historical Study announcement; not a current offer",
+        "https://about.fb.com/news/2019/06/study-from-facebook/"
+      ]
+    ]
+  },
+  {
+    "name": "Media Rewards",
+    "kind": "Research",
+    "status": "Watchlist",
+    "windows": false,
+    "india": "Current India enrollment and local redemption terms not confirmed. No India bonus is included in this guide.",
+    "summary": "Background media measurement earns prize-draw entries; occasional paid surveys require action.",
+    "earnings": "Passive points improve prize-draw participation. They are not a fixed cash wage. Budget sweepstakes winnings at ₹0; separate survey compensation from passive income.",
+    "payout": "Official FAQ says winners redeem prizes as in-app gift cards. Survey rewards and regional thresholds require an actual invitation.",
+    "limits": "Mobile background measurement. No supported Windows earning route established. A phone emulator is not a verified substitute.",
+    "setup": [
+      "Check the official site's store links and whether enrollment is open in your country.",
+      "Read media-measurement consent and battery requirements.",
+      "If accepted, enable the measurement feature and review occasional survey invitations manually."
+    ],
+    "risk": "Prize amounts are not expected monthly earnings. The operator says it does not save conversations; evaluate its full privacy policy yourself before opting in.",
+    "confidence": "Official main page and FAQ retrieved; India screener could not be validated.",
+    "sources": [
+      [
+        "Official earning model and FAQ",
+        "https://mediarewards.com/"
+      ]
+    ]
+  },
+  {
+    "name": "EarnFM",
+    "kind": "Bandwidth",
+    "status": "Watchlist",
+    "windows": true,
+    "india": "Not independently verified in this research pass.",
+    "summary": "Windows bandwidth alternative with readable homepage FAQ; local eligibility and actual demand remain unproven.",
+    "earnings": "No current rate or India earning estimate validated. Assign ₹0 to the plan.",
+    "payout": "Homepage FAQ says withdrawals usually start at $15, varying by method, with a weekly processing schedule. It lists PayPal, crypto and gift cards; India options need dashboard confirmation.",
+    "limits": "Homepage confirms Windows/Mac, Android/iOS and Docker. Detailed account/IP and network restrictions could not be validated from the JavaScript-only help center.",
+    "setup": [
+      "Open the official site and help center in a browser.",
+      "Before downloading, capture country availability, supported Windows version, earning basis, withdrawal terms and device/IP policy.",
+      "Promote to a pilot only if these checks succeed; request the first eligible payout before considering expansion."
+    ],
+    "risk": "Country eligibility, device/IP caps and local redemption remain unresolved. Do not purchase extra connections based on generic earning claims.",
+    "confidence": "Homepage application text retrieved directly; detailed help-center policies and India payout unverified.",
+    "sources": [
+      [
+        "Official site to investigate",
+        "https://earn.fm/"
+      ],
+      [
+        "Help center to verify",
+        "https://help.earn.fm/portal/en/kb"
+      ],
+      [
+        "Provider homepage FAQ application text",
+        "https://earn.fm/assets/index-eb341290.js"
+      ]
+    ]
+  },
+  {
+    "name": "ByteLixir",
+    "kind": "Bandwidth",
+    "status": "Watchlist",
+    "windows": false,
+    "india": "Not verified; country admission and demand both need checking.",
+    "summary": "Potential bandwidth alternative, retained as a lead because current official terms could not be read reliably.",
+    "earnings": "No rate or monthly revenue validated. Common residential/mobile rate claims are deliberately excluded from the budget.",
+    "payout": "Minimum, crypto network, fees, KYC and India availability unresolved.",
+    "limits": "Windows support, virtual-machine permission and per-IP rules were not verified; do not assume permission.",
+    "setup": [
+      "Read the official FAQ in a normal browser and confirm all commercial terms.",
+      "Verify the installer source, platform support and India withdrawal route.",
+      "Only then consider a small test on an authorized connection."
+    ],
+    "risk": "Direct retrieval encountered a browser challenge. No payout evidence was independently tested.",
+    "confidence": "Unverified lead; ₹0 forecast.",
+    "sources": [
+      [
+        "Official FAQ to verify",
+        "https://bytelixir.com/en/faq"
+      ]
+    ]
+  },
+  {
+    "name": "Repocket",
+    "kind": "Bandwidth",
+    "status": "Watchlist",
+    "windows": false,
+    "india": "India eligibility, current Windows download and payout route need dashboard confirmation.",
+    "summary": "Current policy confirms bandwidth sharing, but commercial terms need account-level verification.",
+    "earnings": "July 3, 2026 policy describes primarily per-GB rewards influenced by location and demand. It does not fix a public rate. Old $0.20/GB estimates are not used here.",
+    "payout": "Threshold and methods vary. Displayed balances can be provisional; verification and holds may delay payout. No current universal minimum confirmed.",
+    "limits": "Policy allows eligibility/compliance checks and forfeiture for invalid activity. Verify device and IP limits in current terms before running multiple clients.",
+    "setup": [
+      "Read the payment policy, then inspect the dashboard for rate, country, installer and withdrawal options.",
+      "Record terms before running a small trial.",
+      "Treat balance as uncollected until a withdrawal has cleared."
+    ],
+    "risk": "The policy allows temporary or indefinite holds and adjustments. Do not treat a dashboard balance as a guaranteed receivable.",
+    "confidence": "Current official payment policy retrieved; no account or payment tested.",
+    "sources": [
+      [
+        "Payment and rewards policy",
+        "https://repocket.com/payment-and-rewards-policy"
+      ]
+    ]
+  },
+  {
+    "name": "TraffMonetizer",
+    "kind": "Bandwidth",
+    "status": "Conditional",
+    "windows": true,
+    "india": "India eligibility and successful India payout not established. Cryptocurrency payout acceptance required.",
+    "summary": "Windows bandwidth candidate with a verified current site linkage, but an unknown earning rate.",
+    "earnings": "No current published per-GB rate verified. The advertised average is not usable as an India forecast. Budget ₹0 pending measured results.",
+    "payout": "Current site states $10 minimum with USDT on TRC20; wire transfers from $1,000. Stated processing 3–5 business days. Confirm destination/network and all conversion costs locally.",
+    "limits": "Official Docker documentation allows legitimate assigned IP/VPS configurations. That does not authorize fabricated identities or imply paid servers will be profitable.",
+    "setup": [
+      "Confirm country admission, network permission and a usable payout route.",
+      "Use the current official download page; inspect publisher/signature before running the Windows executable.",
+      "Enter the account token locally, never in a public issue or this research page.",
+      "Measure actual credits and request the first eligible withdrawal."
+    ],
+    "risk": "The older .com hostname did not resolve during this review. The .io site was corroborated by reciprocal links from the established Docker namespace; this is not a binary security audit or payout proof.",
+    "confidence": "Current site and Docker linkage retrieved; India income unverified.",
+    "sources": [
+      [
+        "Current site and payout information",
+        "https://traffmonetizer.io/"
+      ],
+      [
+        "Downloads",
+        "https://traffmonetizer.io/downloads/"
+      ],
+      [
+        "Reciprocal Docker source",
+        "https://hub.docker.com/r/traffmonetizer/cli_v2"
+      ]
+    ]
+  },
+  {
+    "name": "Grass",
+    "kind": "Speculative",
+    "status": "Watchlist",
+    "windows": true,
+    "india": "Country/reward eligibility still requires confirmation. Official setup guide supports Windows and Android 9+.",
+    "summary": "Bandwidth-related points/rewards project. Keep speculative points outside the monthly cash target.",
+    "earnings": "Official terms say points have no monetary value and rewards are discretionary. Allocate ₹0 recurring cash in every baseline scenario.",
+    "payout": "Any future token or other reward requires separate eligibility and redemption review. Do not translate points into rupees using an assumed token allocation.",
+    "limits": "One account under retrieved terms. Official setup guide caps rewards per connection: multiple clients on the same router do not multiply points.",
+    "setup": [
+      "Read the general and specific reward terms before connecting a device or wallet.",
+      "Confirm official supported client, country eligibility and permissions.",
+      "If voluntarily participating, track points separately from cash; keep seed phrases private."
+    ],
+    "risk": "Reward rules, eligibility and token values can change. Speculation is not set-and-forget income.",
+    "confidence": "Official general terms retrieved; no token valuation or payout assumed.",
+    "sources": [
+      [
+        "General terms and reward limitations",
+        "https://www.grass.io/terms-and-conditions/"
+      ],
+      [
+        "Official desktop and Android setup",
+        "https://www.grass.io/learn/how-to-set-up-grass-on-every-device-desktop-extension-and-android/"
+      ]
+    ]
+  },
+  {
+    "name": "EarnApp",
+    "kind": "Bandwidth",
+    "status": "Exclude",
+    "windows": false,
+    "india": "Official notice dated November 3, 2026 says no longer available in India; traffic to India devices stopped.",
+    "summary": "A major reason older passive-app lists are misleading for this month's India plan.",
+    "earnings": "₹0 forecast for India passive bandwidth under the current notice.",
+    "payout": "The notice says existing users may cash out remaining balances. This does not create new earning availability.",
+    "limits": "Do not use an IP changer, foreign identity or emulator to bypass the regional restriction.",
+    "setup": [
+      "Skip new India installation for income.",
+      "Existing users should review the official notice and their remaining balance directly."
+    ],
+    "risk": "Global promotional pages may remain visible despite a country-specific shutdown. Prefer the specific notice.",
+    "confidence": "Official help-center article retrieved via its JSON API.",
+    "sources": [
+      [
+        "India closure notice",
+        "https://help.earnapp.com/hc/en-us/articles/52633267575057-EarnApp-no-longer-available-in-India"
+      ],
+      [
+        "Same notice via official API",
+        "https://help.earnapp.com/api/v2/help_center/en-us/articles/52633267575057.json"
+      ]
+    ]
+  },
+  {
+    "name": "Pawns.app",
+    "kind": "Bandwidth",
+    "status": "Exclude",
+    "windows": false,
+    "india": "No reliable new passive bandwidth path established for India. Current public pages conflict.",
+    "summary": "Active surveys and games do not satisfy the requested passive model.",
+    "earnings": "Official AI information page says bandwidth sharing was discontinued in 2026; current download page emphasizes active tasks. Budget ₹0 passive until support confirms otherwise.",
+    "payout": "Do not use historical passive rates/thresholds. Current task rewards and thresholds do not establish a passive earning opportunity.",
+    "limits": "March 10, 2026 terms still retain an optional traffic-sharing addendum where available. That conflicts with the newer product description, so a universal shutdown is not asserted here.",
+    "setup": [
+      "Do not install for a passive-income pilot based on an old article.",
+      "Check actual app availability and written support confirmation if reconsidering."
+    ],
+    "risk": "Marketing amounts for highly active users must not be presented as passive monthly earnings.",
+    "confidence": "Three official pages retrieved; contradiction remains unresolved.",
+    "sources": [
+      [
+        "Official product information",
+        "https://pawns.app/llm-info/"
+      ],
+      [
+        "Current download offering",
+        "https://pawns.app/download/"
+      ],
+      [
+        "Terms with conditional addendum",
+        "https://pawns.app/terms-of-use/"
+      ]
+    ]
+  },
+  {
+    "name": "Nielsen Computer & Mobile Panel",
+    "kind": "Research",
+    "status": "Exclude",
+    "windows": true,
+    "india": "India is absent from the published country selector retrieved in this review. No current India enrollment route established.",
+    "summary": "A genuine panel in supported countries, but no verified fit for this India setup.",
+    "earnings": "US FAQ advertises up to $60/year while retaining older $50 wording. Neither figure should be imported into an India forecast.",
+    "payout": "Rewards depend on the local panel. No India payment schedule or catalog verified.",
+    "limits": "Country-specific enrollment and actual device usage. Windows support elsewhere does not establish India eligibility.",
+    "setup": [
+      "Check the official country selector for a genuine local panel.",
+      "If India is unavailable, stop; do not register with a foreign address."
+    ],
+    "risk": "Do not confuse this panel with separate NielsenIQ shopping panels that may require active purchase reporting.",
+    "confidence": "Official country selector and US FAQ retrieved; no India offer found.",
+    "sources": [
+      [
+        "Official country selector",
+        "https://computermobilepanel.nielsen.com/ui/US/en/globalpanelsites.html"
+      ],
+      [
+        "US FAQ; not an India offer",
+        "https://computermobilepanel.nielsen.com/ui/US/en/faqen.html"
+      ]
+    ]
+  },
+  {
+    "name": "SavvyConnect",
+    "kind": "Research",
+    "status": "Exclude",
+    "windows": true,
+    "india": "The retrieved monthly incentive offer is explicitly for US residents.",
+    "summary": "Clear payment conditions, but ineligible for the assumed India location.",
+    "earnings": "US offer: $3 per device category, maximum one mobile plus one computer = $6/month. Not $3 for every emulator.",
+    "payout": "Credits issued after the first full participation month. Need at least seven days of actual usage per eligible device in each calendar month.",
+    "limits": "US residence, real activity and two paid categories. Sweepstakes are additional chance-based prizes, not recurring income.",
+    "setup": [
+      "Exclude from the India plan.",
+      "Only genuine eligible residents should review enrollment and withdrawal terms."
+    ],
+    "risk": "Foreign-location spoofing and duplicate virtual devices do not satisfy the stated offer.",
+    "confidence": "Official participation requirements retrieved directly.",
+    "sources": [
+      [
+        "Monthly eligibility and caps",
+        "https://surveysavvy.com/savvyconnect-requirements/"
+      ]
+    ]
+  }
+]
