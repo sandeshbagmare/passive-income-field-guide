@@ -12,6 +12,12 @@ Start with one documented bandwidth pilot; investigate GPU compute only on suita
 
 ## Contents
 
+- `pc-agent.html`: PC-first setup runbook with 13 candidate routes, connection branches, agent installation and a 30-day plan.
+- `AGENT-SETUP.md`: complete handoff instructions for another coding agent.
+- `setup-pc.ps1`: audit-first Windows helper, selected verified downloads/interactive installation and localhost dashboard serving.
+- `dashboard.html`: functional local-data dashboard for setup state, observed versus assumed estimates, pooled balances and actual net cash. No provider login/API integration.
+- `pc-catalog.json`, `pc-catalog.js`: structured current PC candidates; build script regenerates the offline browser catalog.
+- `dashboard-core.js`, `dashboard.js`, `dashboard.css`: validated import/math and dashboard behavior; checks: `node dashboard-check.cjs`.
 - `index.html`: complete static research guide with sources, 15 app cards, calculator and seven-day plan.
 - `apps.json`: structured app comparison; status and uncertainty are explicit.
 - `site.css`, `site.js`: accessible responsive presentation, filtering and illustrative calculator.
@@ -35,4 +41,4 @@ Follow-up checks: Android Honeygain uses one account across eligible connections
 
 Expanded research: ByteLixir's published mobile rate and crypto threshold are now documented; EarnFM specifically excludes cellular-only sharing. Repocket Windows downloads are verified, while its India/Android economics remain conditional. The handbook adds ProxyRack Peer (official India/Android evidence), plus Bitping and MystNodes as conditional/advanced alternatives beyond the original 15 entries. No rate establishes buyer demand. The default capacity model treats 300 GB/day as aggregate, with clearly illustrative FX and editable costs.
 
-No passwords, OTPs, wallet secrets, personal hardware details, full copyrighted source dumps, affiliate links or credentials are included. The page contains no installation automation or geographic/account evasion instructions. Setup requires local sign-in and informed consent to the chosen provider's data/network use.
+No passwords, OTPs, wallet secrets, personal hardware details, full copyrighted source dumps, affiliate links or credentials are included. The PC helper prepares selected installers and can launch a valid, independently publisher-verified installer interactively; it does not accept terms, sign in, activate sharing or bypass network rules. Setup requires owner sign-in and informed consent to the chosen provider's data/network use. No install-all or automatic human-work completion is included.

@@ -27,7 +27,7 @@ assert.throws(()=>calculateBandwidthPlan({...v,rate:NaN}), RangeError);
 console.log('PASS: target traffic, pooled fee, capacity limits, threshold delay, no-demand/zero-rate cases, and input validation.');
 const fs = require('node:fs');
 const path = require('node:path');
-for (const file of ['index.html','android-pilot.html','internet-income-plan.html']) {
+for (const file of ['index.html','android-pilot.html','internet-income-plan.html','pc-agent.html','dashboard.html']) {
   const html = fs.readFileSync(file,'utf8');
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
   assert.equal(new Set(ids).size,ids.length,file+': duplicate IDs');
@@ -43,12 +43,12 @@ for (const file of ['index.html','android-pilot.html','internet-income-plan.html
   }
 }
 const handbook = fs.readFileSync('internet-income-plan.html','utf8');
-assert.ok(fs.readFileSync('index.html','utf8').includes('class="button" href="internet-income-plan.html"'), 'Home CTA must open the full guide');
+assert.ok(fs.readFileSync('index.html','utf8').includes('class="button" href="pc-agent.html"'), 'Home CTA must open the PC guide');
 assert.match(handbook, /id="active-fallback"/);
 assert.match(handbook, /participant-support\.usertesting\.com/);
 assert.match(handbook, /211062538-Learn-about-the-Freelancer-Service-Fee/);
 assert.match(handbook, /9234443621137-Your-earnings-page/);
 assert.match(handbook, /open the Peer app.*own Settings/s);
 assert.doesNotMatch(handbook, /In Android Settings, enable <strong>Share my bandwidth/);
-console.log('PASS: all three published pages have unique IDs, valid local assets and anchor targets.');
+console.log('PASS: all five published pages have unique IDs, valid local assets and anchor targets.');
 console.log('PASS: active fallback, official payment sources and correct ProxyRack app mode are documented.');
