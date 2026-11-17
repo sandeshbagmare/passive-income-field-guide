@@ -57,6 +57,14 @@
       [
         "Additional provider eligibility/device/payout help (30688341894428)",
         "https://support.honeygain.com/api/v2/help_center/en-us/articles/30688341894428.json"
+      ],
+      [
+        "Native Android setup",
+        "https://www.honeygain.com/download/"
+      ],
+      [
+        "Shared carrier IP and network errors",
+        "https://support.honeygain.com/hc/en-us/articles/30688404694428-Error-Network-overused"
       ]
     ]
   },
@@ -125,16 +133,16 @@
     "windows": false,
     "india": "Current India admission, credit schedule and redemption catalog remain unverified. An India-rendered store page does not establish panel eligibility.",
     "summary": "Closest match to the background research apps mentioned in the request. Requires a real supported mobile device.",
-    "earnings": "Official Android listing advertises weekly credits and initial membership credits, but does not establish a current India monthly amount. Budget ₹0 until an actual accepted offer is visible.",
-    "payout": "Credits redeem against a regional catalog. Listing now includes PayPal among rewards; do not assume every country has it. Minimum and processing time must be checked in the account.",
-    "limits": "VPN and Accessibility permissions collect browsing/app-use information. No Windows earning client established in this review; emulator eligibility not established.",
+    "earnings": "Official Android listing advertises weekly credits and initial membership credits. Its membership guide says weekly credits must be claimed within seven days or expire; this requires a recurring manual action. No current India monthly amount verified.",
+    "payout": "Credits redeem against a regional catalog; the listing includes PayPal among rewards, but local availability/threshold needs checking. Membership guide says redeemed gift-card emails may take up to 72 hours. Do not assume every country offers the same catalog.",
+    "limits": "One personal account under official terms. No verified entitlement to three rewarded devices for one participant. VPN and Accessibility collect browsing/app-use data; do not run its measurement VPN alongside a bandwidth app that prohibits VPNs without verified compatibility.",
     "setup": [
       "Use the official MobileXpression site/store listing on an owned phone and confirm admission.",
       "Read the exact data-consent screen and reward terms before enabling its permissions.",
-      "Record weekly credit requirements and first redemption threshold; use the phone normally."
+      "Use the phone normally and manually claim each weekly award within seven days; check the actual account redemption threshold."
     ],
     "risk": "The provider says Accessibility collects browser URLs and active apps, while its VPN collects web requests. This is a substantial data-sharing decision.",
-    "confidence": "Official Play listing, updated June 24, 2026, retrieved; India schedule not verified.",
+    "confidence": "Official Android listing plus browser-rendered terms and membership guide reviewed; India schedule and multi-device rewards unverified.",
     "sources": [
       [
         "Official Android listing and data collection",
@@ -143,6 +151,14 @@
       [
         "Enrollment",
         "https://www.mobilexpression.com/"
+      ],
+      [
+        "Weekly claim and redemption guide",
+        "https://www.mobilexpression.com/membership-guide"
+      ],
+      [
+        "One personal account terms",
+        "https://www.mobilexpression.com/common/termsofservice-v3"
       ]
     ]
   },
@@ -155,7 +171,7 @@
     "summary": "Check for a background research invitation, but many programs are active surveys, tasks or product trials.",
     "earnings": "Program-specific points; no verified fixed monthly amount. No invitation means no dependable earnings. Do not reuse old Facebook Research or Study payout claims.",
     "payout": "Current regional threshold, reward value, payment method and processing time are program/account dependent and were not verified.",
-    "limits": "Mobile app; no native Windows earning path established. Certain programs use Accessibility. Program consent and eligibility are separate from app installation.",
+    "limits": "One account per person under current terms. Programs depend on country and quotas; no general per-extra-phone payout entitlement. Terms prohibit proxy location disguise and automation to inflate points. Some programs require Accessibility and separate consent.",
     "setup": [
       "Install the official Meta Viewpoints app, create or access your own account and check country eligibility.",
       "Read each invitation's tasks, duration, data access and compensation.",
@@ -171,6 +187,10 @@
       [
         "Historical Study announcement; not a current offer",
         "https://about.fb.com/news/2019/06/study-from-facebook/"
+      ],
+      [
+        "Current Viewpoints account and program terms",
+        "https://www.facebook.com/help/viewpoints/tos"
       ]
     ]
   },

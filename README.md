@@ -18,6 +18,8 @@ Start with one documented bandwidth pilot; investigate GPU compute only on suita
 - `build.cjs`: regenerates the static page from `apps.json` and `page.html`.
 - `check.cjs`: structural/data and calculator checks (`node check.cjs`).
 - `pilot-log.csv`: empty local earnings ledger. Keep personal entries outside the public repository.
+- `android-pilot.html`: one-account guide for three Android phones on separate native SIM connections, with carrier-IP checks and a seven-day measurement plan.
+- `account-pilot-log.csv`, `device-pilot-log.csv`: separate blank ledgers to avoid counting a shared account balance once per phone.
 
 Rebuild after editing: `node build.cjs`. No package installation required.
 
@@ -26,5 +28,7 @@ Rebuild after editing: `node build.cjs`. No package installation required.
 Provider pages were checked through direct HTTPS retrieval on the research date. The web-search interface returned blank output, so this guide does not rely on search snippets or fabricated citations. Links identify the exact provider sources. A source being reachable does not prove payouts, app safety or India admission. Inaccessible pages are marked unverified. Conflicting provider statements remain visible. No accounts, payments or downloads were independently tested.
 
 Claims are provider statements, not independent payout endorsements. Rate scenarios are arithmetic, not forecasts. Country and reward rules may change after the review date. This is a researched shortlist, not an exhaustive survey of every app or a verified earnings maximum.
+
+Follow-up checks: Android Honeygain uses one account across eligible connections; separate SIMs can share a carrier public IP, and mobile tethering is prohibited. MobileXpression requires weekly manual credit claims within seven days. Viewpoints and MobileXpression do not establish triple rewards for one person with three phones. The Android pilot links current provider rules and keeps personal device diagnostics outside this repository.
 
 No passwords, OTPs, wallet secrets, personal hardware details, full copyrighted source dumps, affiliate links or credentials are included. The page contains no installation automation or geographic/account evasion instructions. Setup requires local sign-in and informed consent to the chosen provider's data/network use.

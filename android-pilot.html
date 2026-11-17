@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A measured Honeygain pilot for three Android phones with separate SIM data connections in India.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="site.css">
+  <title>Three Android phones · Passive Income Field Guide</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <a class="brand" href="./">FIELDNOTES <span>/ ANDROID PILOT</span></a>
+  <nav aria-label="Pilot navigation"><a href="#install">Install</a><a href="#measure">Measure</a><a href="#week">This week</a><a href="#sources">Sources</a></nav>
+</header>
+<main id="main">
+  <section class="section">
+    <p class="eyebrow">INDIA · OFFICIAL RULES RECHECKED 17 NOV 2026</p>
+    <h1 style="font-size:clamp(40px,6vw,76px)">Three phones.<br><em>One measured pilot.</em></h1>
+    <p class="intro">A setup guide for three owned Android phones, each on its own native SIM/mobile-data connection, using one existing Honeygain account and an eligible India PayPal destination.</p>
+    <p>This is a reusable example, not a verified earning result. No phone is remotely connected to this page. It cannot install apps, read balances or start background sharing.</p>
+    <div class="callout"><strong>Three SIMs are not necessarily three public IPs.</strong> A carrier can put customers behind a shared address. Start each phone separately; proceed only if it is accepted. Honeygain allows one sharing device per network/IP and up to ten devices per account. <a href="https://support.honeygain.com/hc/en-us/articles/30688346556956-How-many-devices-can-I-use-and-how-do-I-manage-them">Official limits ↗</a></div>
+  </section>
+  <section class="section" id="install">
+    <p class="eyebrow">01 / START ON PHONE A</p>
+    <h2>Use the existing account.</h2>
+    <ol class="timeline">
+      <li><span>BEFORE INSTALLING</span><div><h3>Check the connection and consent</h3><p>Confirm the SIM account holder permits sharing and the carrier's terms allow it. Honeygain requires age 18+. Its customers route traffic through your public IP, which can cause CAPTCHAs or access problems. Read its <a href="https://www.honeygain.com/terms-of-use/">network-sharing terms</a> and stop if the tradeoff is unacceptable.</p><p>Keep the three phones on their own mobile data for the test. Do not put them all on one Wi-Fi network. Check each SIM's actual daily limit, fair-use cap and overage charges; a stated total allowance does not establish a per-phone allowance.</p></div></li>
+      <li><span>PHONE A · DOWNLOAD</span><div><h3>Open the official download page</h3><p><a class="button" href="https://www.honeygain.com/download/">Official Honeygain download ↗</a></p><p>Use Android Chrome on the phone and follow Honeygain's Android download flow. The Android app is distributed through its site, outside Google Play. Avoid search-ad copies and third-party APK mirrors. Keep Play Protect enabled. If it blocks the app, pause and investigate rather than overriding the block.</p><p>If Android asks to allow installation from Chrome, allow that app-specific permission only for this installation, then turn it off again. Menu wording varies by phone.</p></div></li>
+      <li><span>PHONE A · SIGN IN</span><div><h3>Sign in locally and check the mode</h3><p>Use your existing Honeygain account. Enter credentials directly in the app, verify email if requested, and read/accept the current consent screens yourself. Do not create another account for a bonus.</p><p>Check that the reward mode uses Honeygain balance if your aim is the PayPal withdrawal. JumpTask credits/rewards are a separate route. Record your opening account balance before testing; keep bonuses, referrals and old balance separate from new sharing credits.</p></div></li>
+      <li><span>PHONE A · BACKGROUND</span><div><h3>Check that it can actually share</h3><p>Enable the app's mobile-data sharing control and check its displayed connection state and credited traffic. “Connected” alone does not demonstrate paid traffic. If Android later pauses it, allow background data and change only Honeygain's battery setting to Unrestricted / Not optimized, as needed. Keep other security settings intact.</p><p>Use the app's current data limit if offered. Otherwise monitor Android's data counter and pause sharing before the SIM's allowance or your chosen test budget is reached. Do not force downloads to consume the allowance.</p></div></li>
+      <li><span>PHONES B AND C</span><div><h3>Add the other phones one at a time</h3><p>After phone A has a stable test, repeat on phone B, then C, signing in to the same account. Each uses its own native SIM data. If “Network overused” appears, pause the conflicting client and record it. Shared carrier addresses can cause this even with different SIMs. Do not rotate IPs or add VPNs to bypass it.</p><p>Do not tether a phone to run Honeygain on the PC: <a href="https://support.honeygain.com/hc/en-us/articles/30688524338332-How-can-I-ensure-that-my-account-will-not-be-suspended">current Honeygain rules prohibit mobile tethering</a>. Native mobile data on the Android itself is the supported pilot here.</p></div></li>
+    </ol>
+  </section>
+  <section class="section numbers" id="measure">
+    <p class="eyebrow">02 / COUNT THE MONEY ONCE</p>
+    <h2>One account ledger. Three device logs.</h2>
+    <div class="two-up">
+      <article class="panel"><h3>Account: credited income and payout</h3><p>Record one opening and closing account balance per day, not the same balance on three device rows. Record sharing credits separately from bonuses/referrals. Withdrawals reduce the dashboard balance, so record them separately too; a simple closing-minus-opening calculation can otherwise be wrong.</p><p>Use the account's actual redemption value. Track cash received in INR separately from unpaid credits, withdrawal requests and gift cards.</p><p><a href="account-pilot-log.csv" download>Download blank account ledger ↓</a></p></article>
+      <article class="panel"><h3>Devices: traffic, uptime and errors</h3><p>Use phone labels A, B and C; no IMEI, phone number or public IP is needed. Record connection status, app-reported shared traffic, uptime and Android's data use. Operating-system bytes are not automatically credited bytes.</p><p>Measure any additional recharge and charging cost. Track connection disruption and heat. Stop clients that lose money or interfere with normal phone use.</p><p><a href="device-pilot-log.csv" download>Download blank device ledger ↓</a></p></article>
+    </div>
+    <div class="callout"><strong>PayPal withdrawal:</strong> current provider help states a $20 account minimum and a $2.02 processor fee, with possible additional conversion/PayPal costs. India is supported with its bank/KYC conditions. Your three devices pool eligible earnings in the same account; they do not each need a separate $20 balance. Request a payout only when actually eligible. <a href="https://support.honeygain.com/hc/en-us/articles/30688365428636-How-to-request-a-payout">Payout help ↗</a></div>
+    <h3 style="margin-top:32px">300 GB/day is capacity, not a purchase order.</h3>
+    <p>At an illustrative $0.10/paid GB and ₹85/USD, ₹30,000 gross would require about 3,529 purchased GB/month in total—about 118 GB/day, or 39 GB/day per phone if split equally. This is target arithmetic, not evidence of demand. There is no verified reason to expect that volume from three India SIMs. Check the actual rate in your account.</p>
+    <p>For comparison only, 1 paid GB/day on each of three phones would be $9 / ₹765 gross over 30 days, before costs and fees. This is also a scenario, not a prediction. Do not buy extra data, SIMs, hardware or a RAM upgrade to chase these illustrations.</p>
+    <p><strong>Android has no Honeygain Content Delivery.</strong> That feature is for Windows/macOS; do not add its hourly rewards to a phone estimate.</p>
+  </section>
+  <section class="section" id="week">
+    <p class="eyebrow">03 / SEVEN DAYS FROM YOUR FIRST INSTALL</p>
+    <h2>Add devices only after the last one works.</h2>
+    <ol class="timeline">
+      <li><span>DAY 1</span><div><h3>Phone A only</h3><p>Install, sign in, note opening balance and actual data limit. Record a full 24-hour window when feasible.</p></div></li>
+      <li><span>DAY 2</span><div><h3>Add phone B</h3><p>Check whether both phones share successfully. Record errors and whether adding B changes the combined result.</p></div></li>
+      <li><span>DAY 3</span><div><h3>Add phone C</h3><p>Repeat the eligibility and data checks. Leave a conflicting device paused if its carrier address is already in use.</p></div></li>
+      <li><span>DAYS 4–5</span><div><h3>Measure steady operation</h3><p>Check once daily. Keep account totals separate from device traffic. Optional research-panel checks use separate periods or devices so a measurement VPN does not conflict with the bandwidth pilot.</p></div></li>
+      <li><span>DAY 6</span><div><h3>Check withdrawal eligibility</h3><p>Request a payout if the actual minimum is reached. Otherwise record days remaining using the measured average—not a provider's marketing number. A week of credits may still be too little to withdraw.</p></div></li>
+      <li><span>DAY 7</span><div><h3>Keep, stop or investigate</h3><p>Compare combined net earnings, disruption and cash actually received. Remove unproductive clients. Only then evaluate a second service or another legitimate connection.</p></div></li>
+    </ol>
+  </section>
+  <section class="section">
+    <p class="eyebrow">04 / PC AND RESEARCH PANELS</p>
+    <div class="two-up">
+      <article class="panel"><h3>For an 8 GB RAM PC</h3><p>Current Salad container requirements start at 16 GB system RAM, plus an in-demand dedicated GPU, 70 GB free on C: and other requirements. A 4 GB graphics card does not establish earning eligibility. Leave GPU-container income at zero for an 8 GB PC; no hardware purchase is justified by this pilot.</p><p>The Windows Honeygain client is only a separate test if the PC has an independently permitted connection. A phone hotspot is excluded under the rule above.</p><a href="https://support.salad.com/guides/getting-jobs/getting-container-jobs/">Salad requirements ↗</a></article>
+      <article class="panel"><h3>One person is not three research participants</h3><p>MobileXpression permits one personal account and requires weekly credits to be claimed within seven days. Viewpoints permits one account and has country/program quotas. Neither establishes a three-phone payout entitlement. Current India admission and rewards must be checked locally.</p><p>Check your existing account first. Never run automated tasks to inflate Viewpoints points. MobileXpression's required measurement VPN needs a separate device or test period from the Honeygain pilot unless compatibility is established.</p><p><a href="https://www.mobilexpression.com/membership-guide">Weekly claim guide ↗</a> · <a href="https://www.facebook.com/help/viewpoints/tos">Viewpoints terms ↗</a></p></article>
+    </div>
+  </section>
+  <section class="section methodology" id="sources">
+    <p class="eyebrow">05 / PROVIDER EVIDENCE</p><h2>Checked rules, not tested payouts.</h2>
+    <p>Official help pages were retrieved directly; Android installation, carrier acceptance, balances and withdrawals require actual device testing. This page contains no account connection or remote-control feature. Keep completed logs private; never upload credentials or payment identifiers to the public repository.</p>
+    <ul>
+      <li><a href="https://www.honeygain.com/download/">Official Android download</a></li>
+      <li><a href="https://support.honeygain.com/hc/en-us/articles/30688346556956-How-many-devices-can-I-use-and-how-do-I-manage-them">One account, ten devices, one sharing device per network</a></li>
+      <li><a href="https://support.honeygain.com/hc/en-us/articles/30688404694428-Error-Network-overused">Network overused and shared carrier addresses</a></li>
+      <li><a href="https://support.honeygain.com/hc/en-us/articles/30688524338332-How-can-I-ensure-that-my-account-will-not-be-suspended">VPN, duplicate account and tethering restrictions</a></li>
+      <li><a href="https://support.honeygain.com/hc/en-us/articles/30688341894428-How-to-increase-earnings">Native phone mobile-data example and Content Delivery limits</a></li>
+      <li><a href="https://support.honeygain.com/hc/en-us/articles/30688473491612-Android-device-stopped-sharing-bandwidth">Android background and battery troubleshooting</a></li>
+      <li><a href="https://support.honeygain.com/hc/en-us/articles/30688365428636-How-to-request-a-payout">Withdrawal minimum and process</a> · <a href="https://support.honeygain.com/hc/en-us/articles/30688387290268-What-are-the-payout-fees">Fees</a> · <a href="https://support.honeygain.com/hc/en-us/articles/30688348432028-Which-countries-can-get-PayPal-payouts">India payout availability</a></li>
+      <li><a href="https://www.mobilexpression.com/common/termsofservice-v3">MobileXpression one-account terms</a> · <a href="https://www.mobilexpression.com/membership-guide">Weekly claims</a></li>
+      <li><a href="https://www.facebook.com/help/viewpoints/tos">Meta Viewpoints program/account terms</a></li>
+    </ul>
+    <p><a class="text-link" href="./">← Return to all 15 app candidates and calculator</a></p>
+  </section>
+</main>
+<footer><div class="brand">FIELDNOTES <span>/ ANDROID PILOT</span></div><p>Research snapshot: 17 Nov 2026</p><a href="https://github.com/sandeshbagmare/passive-income-field-guide">Source and corrections ↗</a></footer>
+</body>
+</html>
