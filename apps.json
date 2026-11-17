@@ -223,18 +223,18 @@
     "kind": "Bandwidth",
     "status": "Watchlist",
     "windows": true,
-    "india": "Not independently verified in this research pass.",
+    "india": "India admission and redemption need checking. Current help requires Wi-Fi/fixed broadband; cellular-only sharing is unsupported.",
     "summary": "Windows bandwidth alternative with readable homepage FAQ; local eligibility and actual demand remain unproven.",
     "earnings": "No current rate or India earning estimate validated. Assign ₹0 to the plan.",
-    "payout": "Homepage FAQ says withdrawals usually start at $15, varying by method, with a weekly processing schedule. It lists PayPal, crypto and gift cards; India options need dashboard confirmation.",
-    "limits": "Homepage confirms Windows/Mac, Android/iOS and Docker. Detailed account/IP and network restrictions could not be validated from the JavaScript-only help center.",
+    "payout": "$15 minimum in current help; approved payouts fulfilled through Tremendous email. Claim instructions and available local method must be checked.",
+    "limits": "One account; current help allows up to 50 residential IPs under the standard program. Specific fixed-broadband rule excludes the three native-SIM pilot.",
     "setup": [
       "Open the official site and help center in a browser.",
       "Before downloading, capture country availability, supported Windows version, earning basis, withdrawal terms and device/IP policy.",
       "Promote to a pilot only if these checks succeed; request the first eligible payout before considering expansion."
     ],
     "risk": "Country eligibility, device/IP caps and local redemption remain unresolved. Do not purchase extra connections based on generic earning claims.",
-    "confidence": "Homepage application text retrieved directly; detailed help-center policies and India payout unverified.",
+    "confidence": "Official help and public platform/download pages verified; India demand/payout untested.",
     "sources": [
       [
         "Official site to investigate",
@@ -247,30 +247,46 @@
       [
         "Provider homepage FAQ application text",
         "https://earn.fm/assets/index-eb341290.js"
+      ],
+      [
+        "Fixed-broadband connection requirement",
+        "https://help.earn.fm/portal/en/kb/articles/do-i-need-wifi-to-earn-with-earnfm"
+      ],
+      [
+        "Payout process",
+        "https://help.earn.fm/portal/en/kb/articles/what-do-i-do-if-i-did-not-receive-my-payout"
+      ],
+      [
+        "Official current downloads",
+        "https://earn.fm/en/download"
       ]
     ]
   },
   {
     "name": "ByteLixir",
     "kind": "Bandwidth",
-    "status": "Watchlist",
-    "windows": false,
-    "india": "Not verified; country admission and demand both need checking.",
-    "summary": "Potential bandwidth alternative, retained as a lead because current official terms could not be read reliably.",
-    "earnings": "No rate or monthly revenue validated. Common residential/mobile rate claims are deliberately excluded from the budget.",
-    "payout": "Minimum, crypto network, fees, KYC and India availability unresolved.",
-    "limits": "Windows support, virtual-machine permission and per-IP rules were not verified; do not assume permission.",
+    "status": "Conditional",
+    "windows": true,
+    "india": "India is absent from the published excluded list, but also absent from the high-demand list. Local admission and demand need a test.",
+    "summary": "Android/Windows comparison with a published mobile rate; crypto redemption required.",
+    "earnings": "FAQ publishes $0.45/mobile GB, $0.40/residential and $0.15/hosting. Actual bought traffic determines rewards; no India earning estimate established.",
+    "payout": "$5 crypto minimum; supported token/network choices in dashboard. KYC may apply. No PayPal route established.",
+    "limits": "Same-IP devices do not multiply earnings. Verify actual connection classification and current country/account limits.",
     "setup": [
-      "Read the official FAQ in a normal browser and confirm all commercial terms.",
-      "Verify the installer source, platform support and India withdrawal route.",
-      "Only then consider a small test on an authorized connection."
+      "Check official terms and dashboard payout options first.",
+      "Download Android/Windows via the official account dashboard.",
+      "Compare one phone in a separate window; log credited GB and test first eligible payout."
     ],
-    "risk": "Direct retrieval encountered a browser challenge. No payout evidence was independently tested.",
-    "confidence": "Unverified lead; ₹0 forecast.",
+    "risk": "Published rates are not demand. Crypto conversion and fees can reduce usable proceeds.",
+    "confidence": "Official FAQ and terms retrieved; no account, binary or payout trial.",
     "sources": [
       [
         "Official FAQ to verify",
         "https://bytelixir.com/en/faq"
+      ],
+      [
+        "Provider terms",
+        "https://bytelixir.com/en/terms-of-use"
       ]
     ]
   },
@@ -278,8 +294,8 @@
     "name": "Repocket",
     "kind": "Bandwidth",
     "status": "Watchlist",
-    "windows": false,
-    "india": "India eligibility, current Windows download and payout route need dashboard confirmation.",
+    "windows": true,
+    "india": "Windows client verified; India eligibility and local payout still need dashboard confirmation. Current public Android bandwidth download not established.",
     "summary": "Current policy confirms bandwidth sharing, but commercial terms need account-level verification.",
     "earnings": "July 3, 2026 policy describes primarily per-GB rewards influenced by location and demand. It does not fix a public rate. Old $0.20/GB estimates are not used here.",
     "payout": "Threshold and methods vary. Displayed balances can be provisional; verification and holds may delay payout. No current universal minimum confirmed.",
@@ -290,11 +306,15 @@
       "Treat balance as uncollected until a withdrawal has cleared."
     ],
     "risk": "The policy allows temporary or indefinite holds and adjustments. Do not treat a dashboard balance as a guaranteed receivable.",
-    "confidence": "Current official payment policy retrieved; no account or payment tested.",
+    "confidence": "Current download page and payment policy retrieved; India account/payment untested.",
     "sources": [
       [
         "Payment and rewards policy",
         "https://repocket.com/payment-and-rewards-policy"
+      ],
+      [
+        "Current official downloads",
+        "https://repocket.com/download-app"
       ]
     ]
   },
