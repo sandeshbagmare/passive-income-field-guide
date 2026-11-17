@@ -1,0 +1,132 @@
+﻿{
+    "format_version":  1,
+    "archive":  "pc-income-kit.zip",
+    "archive_sha256":  "645D90BF678C2FD3BA7B445964F256E26BC2D03DF543D6B65B5185BC14237607",
+    "file_count":  31,
+    "files":  [
+                  {
+                      "path":  ".gitignore",
+                      "sha256":  "511197795665465E108A896A8FC613B009DCCF0667C6ED4D78D2003D9A9D894B"
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "57441EF39212356710410AE5DE8D6A0F2D521881B01B4723FA28900078FFC991"
+                  },
+                  {
+                      "path":  "AGENT-SETUP.md",
+                      "sha256":  "60FFEC1AF630A07D5008115CDAE61B91DAD306D46D3D89899A3FC77DC910A9E9"
+                  },
+                  {
+                      "path":  "start.cmd",
+                      "sha256":  "BBBA72DB514343A4F729BD5BCEA9CF88A8474C43D15B75CA9D5712D7C2B65D36"
+                  },
+                  {
+                      "path":  "setup-pc.ps1",
+                      "sha256":  "B3505873C0CDF314BC821923765600E23CB4512324EF2257B2DB65E1C1EB545A"
+                  },
+                  {
+                      "path":  "setup-check.ps1",
+                      "sha256":  "6A99F7E3A215BC1385099AAE7C8C26EA27C5EB1C36A19822DD961EDD8BAD4EF5"
+                  },
+                  {
+                      "path":  "index.html",
+                      "sha256":  "B54E9916C9ABBD0FA1852DE84A8D4F79971C3F627FF7B19C76B46948B82D91CF"
+                  },
+                  {
+                      "path":  "page.html",
+                      "sha256":  "531FA0A8172BD0356370355951BA58E2D3C730E0AD0AB1E98CC4A14FACB684C4"
+                  },
+                  {
+                      "path":  "android-pilot.html",
+                      "sha256":  "61B2A1EF571034C55E6178083F046E1C7A922266D1CD6E65DAC4E75C1E0B5051"
+                  },
+                  {
+                      "path":  "pc-agent.html",
+                      "sha256":  "04C027C0CAE8E2410221310E445B76DE9F3981C52D0E3FA40F6F8FFBD640F900"
+                  },
+                  {
+                      "path":  "pc-work-playbooks.html",
+                      "sha256":  "D318D55B650DCD1A346E66F67971C62A2E9403AD83EF253ED586A51AB163AB6F"
+                  },
+                  {
+                      "path":  "internet-income-plan.html",
+                      "sha256":  "8FC266F77E1892FCF3DAE15668621E8084DAAEA43E6845EEE6C3A2AB1CC1481E"
+                  },
+                  {
+                      "path":  "dashboard.html",
+                      "sha256":  "A9FCE444FF1E58FFE69B699FB6DB95B9CFC9F29D889C80EC6DA27A8EE37F7FB6"
+                  },
+                  {
+                      "path":  "site.css",
+                      "sha256":  "082F83547AFC28DAA70228137E6F06B7847D9DBB06949D93E8351F3484566EA8"
+                  },
+                  {
+                      "path":  "site.js",
+                      "sha256":  "28B74D327F14312FCF1EF5665257D39E62850F48E292B316FA9F77ABA884B858"
+                  },
+                  {
+                      "path":  "handbook.css",
+                      "sha256":  "B0620654DC1323914FD62FA644307F1BF8A8301771FDB731C05A5B7EEB9FA88B"
+                  },
+                  {
+                      "path":  "handbook.js",
+                      "sha256":  "DDCD4931D6128ED20981B3FB33D6C20DAC36DA6B123DC2577BEDE2EFBB22F6C6"
+                  },
+                  {
+                      "path":  "dashboard.css",
+                      "sha256":  "9E462EAE2CE20364592987A6A7BE8EA94F0A2B8EA0C4E533A5FB7873F9D5CD90"
+                  },
+                  {
+                      "path":  "dashboard.js",
+                      "sha256":  "8CE193731A97E51555A30B8C8ED11EC29634E3051DC3D94C6FF823E5891AF03E"
+                  },
+                  {
+                      "path":  "dashboard-core.js",
+                      "sha256":  "BE240F4176FDE11A2D80F58A9227C2CE354561302A3A56879622749C9DAE13BB"
+                  },
+                  {
+                      "path":  "pc-catalog.json",
+                      "sha256":  "E62DE18C17ABD3A65EB2A9980E6C66A312FC001AE418848F8643DF79DF55321D"
+                  },
+                  {
+                      "path":  "pc-catalog.js",
+                      "sha256":  "5460E1E72BB3A279A0C91D75A93FD3CE007F044659AE25C7A1466074EABA672D"
+                  },
+                  {
+                      "path":  "apps.json",
+                      "sha256":  "0BB6D3448607238F705C5FFFDDE25CD5D6603D353B5E7B3E4269729E3834AC13"
+                  },
+                  {
+                      "path":  "account-pilot-log.csv",
+                      "sha256":  "E3AD0DC8985F1809132C52002F79128341089CBFCB6FB5662E16D9B3A868F201"
+                  },
+                  {
+                      "path":  "device-pilot-log.csv",
+                      "sha256":  "1F4F691FF779B5DFDE36A62720896D553026858D496C1659037EC2ACD7B24DBA"
+                  },
+                  {
+                      "path":  "pilot-log.csv",
+                      "sha256":  "3D9E313035C04B3073E6EBE1D3BCBC6CC34C08F4EFAF5E4159B499AE46EA585E"
+                  },
+                  {
+                      "path":  "build.cjs",
+                      "sha256":  "C4DA7E3C646D603A5B67396E1098A5E9B720F3223C61186CC9CF4FE0306D5E22"
+                  },
+                  {
+                      "path":  "check.cjs",
+                      "sha256":  "ED6AAAF253CD88A6DCFE5FC05E7C06F76375F6481D639E1E68AED18F5AA4B4AB"
+                  },
+                  {
+                      "path":  "handbook-check.cjs",
+                      "sha256":  "ACE3D7E280E4A14E6F23B90CEC0185A1264A16D14B75659F0A5D648DCED66493"
+                  },
+                  {
+                      "path":  "dashboard-check.cjs",
+                      "sha256":  "201C2E0A9696083220EB3DB98A3697A78CBEEE7660587D07FCEE3F801286B397"
+                  },
+                  {
+                      "path":  "package-kit.ps1",
+                      "sha256":  "1B9B5D249D844CF42C98058F3777759974FFC059A245B3AAEC62756E770DA706"
+                  }
+              ]
+}

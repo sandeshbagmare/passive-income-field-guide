@@ -13,8 +13,12 @@ Start with one documented bandwidth pilot; investigate GPU compute only on suita
 ## Contents
 
 - `pc-agent.html`: PC-first setup runbook with 13 candidate routes, connection branches, agent installation and a 30-day plan.
+- `pc-work-playbooks.html`: detailed onboarding and human-work boundaries for the five active PC routes.
+- `downloads/pc-income-kit.zip`: portable public-file kit, with SHA256/file manifest; extract completely and open `start.cmd`.
+- `package-kit.ps1`: builds the portable ZIP from an explicit public-file list; excludes private records, client binaries and Git history.
 - `AGENT-SETUP.md`: complete handoff instructions for another coding agent.
 - `setup-pc.ps1`: audit-first Windows helper, selected verified downloads/interactive installation and localhost dashboard serving.
+- `setup-check.ps1`: preparation checks for tethered/broadband decisions and preservation of owner files.
 - `dashboard.html`: functional local-data dashboard for setup state, observed versus assumed estimates, pooled balances and actual net cash. No provider login/API integration.
 - `pc-catalog.json`, `pc-catalog.js`: structured current PC candidates; build script regenerates the offline browser catalog.
 - `dashboard-core.js`, `dashboard.js`, `dashboard.css`: validated import/math and dashboard behavior; checks: `node dashboard-check.cjs`.

@@ -18,15 +18,20 @@ Do not interpret “install everything” as permission to accept every app's te
 
 Clone/download this repository into a dedicated folder. Do not initialize a repository in the user's home directory. Read local AGENTS.md instructions. Preserve user changes. `private/` is gitignored; store inventories, download receipts, binaries and personal dashboard exports there. No credentials, identifiers or balances belong in public commits.
 
+For a portable copy, download `downloads/pc-income-kit.zip` and its SHA256 manifest, verify the archive, then extract ALL files into a dedicated new folder. Do not run a file directly inside the ZIP. `start.cmd` opens the local dashboard using the helper without installing a provider. The portable kit includes this brief, detailed active-work playbooks and all browser assets. It contains no personal inventory, provider binaries or saved balances. The downloadable archive itself is not nested inside its own contents: package-download links on a local copy refer to the public site, while source checkouts can rebuild with `package-kit.ps1`. The manifest is a build-integrity check, not a code-signing claim.
+
 Windows PowerShell 5.1+ is enough for the helper; Node is needed only for development checks and regenerating catalog JS, not ordinary dashboard use. Do not install a package manager/framework merely to open this static dashboard.
 
 ```powershell
 # In the downloaded repository, after reading the script:
 .\setup-pc.ps1 -Action Audit -Connection Unknown
+.\setup-pc.ps1 -Action Prepare -Connection Tethered
 .\setup-pc.ps1 -Action Serve -OpenBrowser
 ```
 
 If local execution policy blocks a downloaded script, inspect it and its origin, then use the user's normal reviewed-script workflow. Do not change machine-wide execution policy or disable security. The localhost server binds only to 127.0.0.1 and exposes an explicit public-asset list; it does not expose `private/`, credentials or the home directory. Keep its terminal open while using it. Press Ctrl+C to stop. A fixed local port gives a consistent browser-save origin; changing port/browser changes that origin.
+
+`Prepare` installs nothing. It creates `private/pc-setup/setup-plan.json`, `SETUP-NEXT.md` and `dashboard-initial.json`. Import the last file into the dashboard to apply connection-based exclusions with all income unknown and all current-plan selections off. Tethered excludes Honeygain/EarnFM for this PC; other background candidates remain unresolved pending their own rules. Broadband remains conditional on provider/carrier permission. Repeated preparation preserves existing owner files. Choose a new output directory for a new plan.
 
 ## Inventory without excess data
 
@@ -43,6 +48,8 @@ Always confirm the current owner's connection before installing. Do not infer br
 - Bitping is an optional passive-network job test with unknown demand, crypto payout caveats and no fixed income rate.
 - ByteLixir / EarnFM / Repocket / TraffMonetizer remain conditional on connection and payout; all have separate accounts/thresholds. Do not blindly add their quoted earnings.
 - UserTesting / uTest / Test IO / Clickworker / freelancing are active work. The agent can prepare the environment and truthful draft profile; the owner completes qualification and performs actual work. No task farming or invented human feedback.
+
+Read `pc-work-playbooks.html` before active-work onboarding. uTest's published best practices prohibit AI-written issue reports, test cases and Tester Review feedback; the agent's role there is environment preparation and general education, not drafting those submissions. Other platforms have their own task/AI rules; follow them instead of assuming permission.
 
 ```powershell
 # Open one provider's official current setup page:
