@@ -33,7 +33,7 @@ Rebuild after editing: `node build.cjs`. No package installation required.
 
 ## Research standard
 
-Provider pages were checked through direct HTTPS retrieval on the research date. The web-search interface returned blank output, so this guide does not rely on search snippets or fabricated citations. Links identify the exact provider sources. A source being reachable does not prove payouts, app safety or India admission. Inaccessible pages are marked unverified. Conflicting provider statements remain visible. No accounts, payments or downloads were independently tested.
+Provider pages were checked through direct HTTPS retrieval and browser research on the research date. Early web-search output was incomplete, so claims were rechecked against actual primary-source content. Links identify the provider sources. Reachability does not prove payouts, app safety or India admission. Inaccessible or conflicting evidence is marked explicitly. No provider account or payout was tested. Selected official Windows downloads were inspected for valid Authenticode signatures, and the helper's download path was exercised; no earning client was installed or executed by this package. This is not a binary security audit.
 
 Claims are provider statements, not independent payout endorsements. Rate scenarios are arithmetic, not forecasts. Country and reward rules may change after the review date. This is a researched shortlist, not an exhaustive survey of every app or a verified earnings maximum.
 
