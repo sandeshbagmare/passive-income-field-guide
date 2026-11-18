@@ -1,5 +1,5 @@
 (function(root) {
-  const fields = ['id','included','status','basis','days','earnedUsd','scenarioUsd','costInr','actualCostInr','feeUsd','loss','balanceUsd','minimumUsd','cashInr'];
+  const fields = ['id','included','status','basis','payoutKind','days','earnedUsd','scenarioUsd','costInr','actualCostInr','feeUsd','loss','balanceUsd','minimumUsd','cashInr'];
   const statuses = ['candidate','downloaded','installed','needs-sign-in','testing','paid','paused','excluded'];
   function strictKeys(value, allowed) {
     if (!value || typeof value !== 'object' || Array.isArray(value) || Object.keys(value).some(k=>!allowed.includes(k))) throw Error('Unexpected object or field in import.');
@@ -10,7 +10,7 @@
   }
   function validateState(s) {
     strictKeys(s,['version','fx','target','month','rows','activeHourlyNetInr','weeklyHoursAvailable']);
-    if (![1,2].includes(s.version)) throw Error('Unsupported data version.');
+    if (![1,2,3].includes(s.version)) throw Error('Unsupported data version.');
     if (s.version === 1) {
       s={...s,version:2,activeHourlyNetInr:null,weeklyHoursAvailable:null};
     }
@@ -19,6 +19,7 @@
     numeric(s.weeklyHoursAvailable,'weekly hours available',0,168,true);
     if (typeof s.month !== 'string' || !/^\d{4}-(0[1-9]|1[0-2])$/.test(s.month)) throw Error('Invalid month.');
     if (!Array.isArray(s.rows) || s.rows.length>100) throw Error('Invalid rows.');
+    if(s.version===2)s={...s,version:3,rows:s.rows.map(r=>({...r,payoutKind:'unconfirmed'}))};
     const ids = new Set();
     for (const r of s.rows) {
       strictKeys(r,fields);
@@ -27,6 +28,7 @@
       if (ids.has(r.id)) throw Error('Duplicate provider row: '+r.id); ids.add(r.id);
       if (!statuses.includes(r.status)) throw Error('Invalid status.');
       if (!['measured','scenario'].includes(r.basis)) throw Error('Invalid basis.');
+      if (!['cash','noncash','unconfirmed'].includes(r.payoutKind)) throw Error('Invalid payout kind.');
       numeric(r.days,'days',1,366);
       for (const k of ['earnedUsd','scenarioUsd','balanceUsd','minimumUsd']) numeric(r[k],k,0,1e8,true);
       for (const k of ['costInr','actualCostInr','feeUsd','cashInr']) numeric(r[k],k,0,1e8);
@@ -37,7 +39,7 @@
   function estimateRow(r,fx) {
     const daily = r.earnedUsd === null ? null : r.earnedUsd/r.days;
     const grossUsd = r.basis === 'scenario' ? r.scenarioUsd : daily === null ? null : daily*30;
-    const net = grossUsd === null ? null : Math.max(0,grossUsd-r.feeUsd)*fx*(1-r.loss/100)-r.costInr;
+    const net = r.payoutKind !== 'cash' || grossUsd === null ? null : Math.max(0,grossUsd-r.feeUsd)*fx*(1-r.loss/100)-r.costInr;
     let thresholdDays = null;
     if (r.minimumUsd !== null && r.balanceUsd !== null) {
       if (r.balanceUsd >= r.minimumUsd) thresholdDays=0;

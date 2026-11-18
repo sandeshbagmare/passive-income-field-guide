@@ -7,6 +7,7 @@ $plan = Get-Content -LiteralPath (Join-Path $testDirectory 'setup-plan.json') -R
 $catalogItems = Get-Content -LiteralPath (Join-Path $root 'pc-catalog.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $catalogCount = $catalogItems.Count
 if ($state.rows.Count -ne $catalogCount) { throw 'Expected all catalog rows' }
+if ($state.version -ne 3 -or @($state.rows | Where-Object payoutKind -ne 'unconfirmed').Count) { throw 'New plans must require payout-kind confirmation before cash forecasts' }
 foreach ($id in @('honeygain','earnfm')) {
   if (($state.rows | Where-Object id -eq $id).status -ne 'excluded') { throw "$id must be excluded for tethered PC" }
 }

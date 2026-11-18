@@ -55,9 +55,9 @@ if ($Action -eq 'Prepare') {
     $status = if ($excluded) { 'excluded' } else { 'candidate' }
     $reason = if ($excluded) { 'Excluded for the declared tethered PC connection under current documented provider rules; native-phone use is a separate route.' } elseif ($item.mode -eq 'active') { 'Prepare browser/work environment; owner completes truthful qualification and real tasks. No paid opportunity guaranteed.' } else { 'Conditional candidate: independently verify country, connection permission, payout and current installer. No eligibility or traffic demand inferred.' }
     $decisions += [ordered]@{id=$item.id;name=$item.name;mode=$item.mode;status=$status;reason=$reason;official_url=$item.setupUrl}
-    $rows += [ordered]@{id=$item.id;included=$false;status=$status;basis='measured';days=7;earnedUsd=$null;scenarioUsd=$null;costInr=0;actualCostInr=0;feeUsd=0;loss=0;balanceUsd=$null;minimumUsd=$item.minimumUsd;cashInr=0}
+    $rows += [ordered]@{id=$item.id;included=$false;status=$status;basis='measured';payoutKind='unconfirmed';days=7;earnedUsd=$null;scenarioUsd=$null;costInr=0;actualCostInr=0;feeUsd=0;loss=0;balanceUsd=$null;minimumUsd=$item.minimumUsd;cashInr=0}
   }
-  $state = [ordered]@{version=1;fx=85;target=30000;month=$month;rows=$rows}
+  $state = [ordered]@{version=3;fx=85;target=30000;month=$month;activeHourlyNetInr=$null;weeklyHoursAvailable=$null;rows=$rows}
   $plan = [ordered]@{prepared_utc=(Get-Date).ToUniversalTime().ToString('o');connection=$Connection;sharing_started=$false;installs_performed=$false;decisions=$decisions}
   $notes = @(
     '# Local PC setup: next steps',
@@ -70,6 +70,7 @@ if ($Action -eq 'Prepare') {
     '5. For an eligible candidate, obtain a current official installer and verify its publisher before interactive installation.',
     '6. Owner completes sign-in, payment/KYC and consent. Record real status and a stable observation window.',
     '7. Keep income unknown until measured. Select only a compatible current configuration. Export privately.',
+    '8. Confirm Payout type only after verifying actual cash redemption for your account. Gift cards, points and unconfirmed types are excluded from cash projections; actual cleared cash is separate.',
     '',
     'For a tethered PC, Honeygain and EarnFM are excluded. Other bandwidth apps remain unresolved until their current rules and carrier permission are verified.',
     'Use pc-work-playbooks.html for active-work preparation if wanted. No qualification answers or human work are automated.',

@@ -1,7 +1,7 @@
 ﻿{
     "format_version":  1,
     "archive":  "pc-income-kit.zip",
-    "archive_sha256":  "CACB1B168D1CBAE79C3D3158DE3122E3315BACF866011C2D2283A0A6CA500967",
+    "archive_sha256":  "0969DC3DE8FA6B6F4DFCC52A2A0BB5693C4925F09CFCB3084B37056F796F9CFE",
     "file_count":  32,
     "files":  [
                   {
@@ -10,11 +10,11 @@
                   },
                   {
                       "path":  "README.md",
-                      "sha256":  "D89B2C4D553DB5A2BB7AC612A2A5F45C6805E99F4259571089FB8786B1674444"
+                      "sha256":  "B4D457913D88BE8AEF3AA8185B69CEC07F843E667B53F5CA7961AFC8075D6997"
                   },
                   {
                       "path":  "AGENT-SETUP.md",
-                      "sha256":  "A8EC77001A3754CC2CBED2F829F71A1CF9F5BE65CD41E48647C7D7D48BBF7D46"
+                      "sha256":  "51B45503A23AB4EFE79A70DE3684783283B8E2AE3175A078E8DD902B5FBDA861"
                   },
                   {
                       "path":  "start.cmd",
@@ -22,11 +22,11 @@
                   },
                   {
                       "path":  "setup-pc.ps1",
-                      "sha256":  "3C1C2DBA27AC302962890E11771909F1D35DF15D8FF237161E5D91E46C8583DB"
+                      "sha256":  "59CCFB29756B25396F03201074EDF6AFD7FFD65C6AA3F681F5302419B02EA46D"
                   },
                   {
                       "path":  "setup-check.ps1",
-                      "sha256":  "41CBE60C92C37B15C5D5DFF17BF0EB37BC3A269E4F135B26616F53D370BF8945"
+                      "sha256":  "C96BCA5676835893D76C3FC712D743CE1D3840902016D5C589DD7970EF3400E7"
                   },
                   {
                       "path":  "index.html",
@@ -50,7 +50,7 @@
                   },
                   {
                       "path":  "more-pc-routes.html",
-                      "sha256":  "4BF53AF585F16500696EB841DFBC0120131502071A61F0B10929B5F18485D7FE"
+                      "sha256":  "0820237274F6C3FAD27F8F1EA0C0E931F2465C20D43EC05CDE3BAEA418C94FE2"
                   },
                   {
                       "path":  "internet-income-plan.html",
@@ -58,7 +58,7 @@
                   },
                   {
                       "path":  "dashboard.html",
-                      "sha256":  "8AA675F71F9818F710657C792EF763CF0B053BDA232C389B8B1DCCA90497C68C"
+                      "sha256":  "874A96AC3C0AE3A24AF65B99387EF2EC455818F9278F3AA8AA80A9DE961D4AA8"
                   },
                   {
                       "path":  "site.css",
@@ -82,11 +82,11 @@
                   },
                   {
                       "path":  "dashboard.js",
-                      "sha256":  "92EC0B5E459B508C58960C820FD54C147BB81B3BA2DC5816FA9AB9B4E9E8FF4E"
+                      "sha256":  "2BF960C8C0C0B394B1E86E7DD6A3BFB7F868A7B492AE23281C3B136AA642449E"
                   },
                   {
                       "path":  "dashboard-core.js",
-                      "sha256":  "FC66FF4A01A7F198A7D98D7FAA5CCBDDB2C19FB9DAC6038A6047D87E1ACF095B"
+                      "sha256":  "11B684B85243D1DE66DC1837D34BCA95FA4478703ECDD8B8588D78ADB83714FF"
                   },
                   {
                       "path":  "pc-catalog.json",
@@ -126,7 +126,7 @@
                   },
                   {
                       "path":  "dashboard-check.cjs",
-                      "sha256":  "4ABF94E7BDDE001D003A8C449E350579305612B8E73E8FC50DF32B29BCD100EF"
+                      "sha256":  "927257C5D2860695CCB30D0858517FB2773C1FECA8DB4209E67743DF48A28F2B"
                   },
                   {
                       "path":  "package-kit.ps1",
